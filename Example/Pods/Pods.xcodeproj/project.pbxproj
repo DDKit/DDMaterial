@@ -561,21 +561,13 @@
 		28AEFE8921D4C28A0076CA7C /* Font */ = {
 			isa = PBXGroup;
 			children = (
-				28AEFE8A21D4C28A0076CA7C /* Roboto */,
-			);
-			path = Font;
-			sourceTree = "<group>";
-		};
-		28AEFE8A21D4C28A0076CA7C /* Roboto */ = {
-			isa = PBXGroup;
-			children = (
 				28AEFE8B21D4C28A0076CA7C /* Roboto-Medium.ttf */,
 				28AEFE8C21D4C28A0076CA7C /* Roboto-Light.ttf */,
 				28AEFE8D21D4C28A0076CA7C /* Roboto-Regular.ttf */,
 				28AEFE8E21D4C28A0076CA7C /* Roboto-Bold.ttf */,
 				28AEFE8F21D4C28A0076CA7C /* Roboto-Thin.ttf */,
 			);
-			path = Roboto;
+			path = Font;
 			sourceTree = "<group>";
 		};
 		33E19E007241CC49ECB4D215696A0D03 /* Development Pods */ = {
