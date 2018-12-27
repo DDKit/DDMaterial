@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DDMaterial_Example' do
+  pod 'DDMaterial', :path => '../'
+
+  target 'DDMaterial_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

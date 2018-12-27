@@ -1,0 +1,6 @@
+framework module DDMaterial {
+  umbrella header "DDMaterial-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - DDMaterial (0.1.0)
+
+DEPENDENCIES:
+  - DDMaterial (from `../`)
+
+EXTERNAL SOURCES:
+  DDMaterial:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDMaterial: 087c93f1b0d476d1e9ce4e43204d4c42e2dc3d93
+
+PODFILE CHECKSUM: 4ab8292696ed32e1ebfc0abc554d0490c770f8c9
+
+COCOAPODS: 1.5.3
