@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name             = 'Material'
+    s.name             = 'DDMaterial'
     s.version          = '0.1.0'
     s.swift_version    = '4.2'
     s.summary          = 'A UI/UX framework for creating beautiful applications.'
