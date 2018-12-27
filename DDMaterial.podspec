@@ -7,11 +7,6 @@ Pod::Spec.new do |s|
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'duanchanghe@gmail.com' => 'ddkit' }
     s.source           = { :git => 'https://github.com/DDKit/DDMaterial.git', :tag => s.version.to_s }
-    s.ios.source_files = 'Sources/**/*.swift'
-    s.requires_arc     = true
-    s.resource_bundles = {
-        'com.cosmicmind.material.icons' => ['Sources/**/*.xcassets'],
-        'com.cosmicmind.material.fonts' => ['Sources/**/*.ttf']
-    }
+    s.source_files = 'Sources/**/*.{swift,xcassets,ttf}'
 end
 

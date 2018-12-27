@@ -86,8 +86,7 @@ private class FontLoader {
       
       let bundle = Bundle(for: FontLoader.self)
       let identifier = bundle.bundleIdentifier
-      let fontURL = true == identifier?.hasPrefix("org.cocoapods") ? bundle.url(forResource: name, withExtension: "ttf", subdirectory: "com.cosmicmind.material.fonts.bundle") : bundle.url(forResource: name, withExtension: "ttf")
-      
+      let fontURL = true == identifier?.hasPrefix("org.cocoapods") ? bundle.url(forResource: name, withExtension: "ttf", subdirectory: nil) : bundle.url(forResource: name, withExtension: "ttf")
       if let v = fontURL {
         let data = NSData(contentsOf: v as URL)!
         let provider = CGDataProvider(data: data)!

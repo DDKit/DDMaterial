@@ -144,8 +144,6 @@
 		28AEFE8021D4BC8B0076CA7C /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEFDF421D4BC8B0076CA7C /* MotionAnimation.swift */; };
 		28AEFE8121D4BC8B0076CA7C /* MotionTargetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEFDF521D4BC8B0076CA7C /* MotionTargetState.swift */; };
 		28AEFE8221D4BC8B0076CA7C /* MotionPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28AEFDF621D4BC8B0076CA7C /* MotionPlugin.swift */; };
-		28AEFE8421D4C0850076CA7C /* com.cosmicmind.material.icons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28AEFE8321D4C0850076CA7C /* com.cosmicmind.material.icons.bundle */; };
-		28AEFE8821D4C11D0076CA7C /* com.cosmicmind.material.fonts.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 28AEFE8721D4C11D0076CA7C /* com.cosmicmind.material.fonts.bundle */; };
 		47357D194A4A57A410D41794E11DF27C /* DDMaterial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3204B57004A7A06938DB2F3267CBED6 /* DDMaterial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9B379F755519085F065E73CF12EEDAB6 /* Pods-DDMaterial_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590455353E3191E0134D94D9510673EC /* Pods-DDMaterial_Tests-dummy.m */; };
 		A17DF548984038EDA5417AB60CB8441C /* Pods-DDMaterial_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869FB8B439C0797DD7F2D67F002C5797 /* Pods-DDMaterial_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -311,8 +309,12 @@
 		28AEFDF421D4BC8B0076CA7C /* MotionAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionAnimation.swift; sourceTree = "<group>"; };
 		28AEFDF521D4BC8B0076CA7C /* MotionTargetState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionTargetState.swift; sourceTree = "<group>"; };
 		28AEFDF621D4BC8B0076CA7C /* MotionPlugin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotionPlugin.swift; sourceTree = "<group>"; };
-		28AEFE8321D4C0850076CA7C /* com.cosmicmind.material.icons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.cosmicmind.material.icons.bundle; sourceTree = "<group>"; };
-		28AEFE8721D4C11D0076CA7C /* com.cosmicmind.material.fonts.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = com.cosmicmind.material.fonts.bundle; sourceTree = "<group>"; };
+		28AEFE8B21D4C28A0076CA7C /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		28AEFE8C21D4C28A0076CA7C /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		28AEFE8D21D4C28A0076CA7C /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		28AEFE8E21D4C28A0076CA7C /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		28AEFE8F21D4C28A0076CA7C /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		28AEFE9021D4C2950076CA7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DDF7FE78DD9906436034F99C99C5499 /* Pods-DDMaterial_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DDMaterial_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3934F13310E096F4CAD23E50D2740E1F /* Pods-DDMaterial_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DDMaterial_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3AE977DEA7F49AD9BF2D1A25AB7DDD85 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -382,8 +384,8 @@
 				28AEFD7A21D4BC8B0076CA7C /* MotionTransitionObserver.swift */,
 				28AEFD7B21D4BC8B0076CA7C /* MotionContext.swift */,
 				28AEFD7D21D4BC8B0076CA7C /* MotionCAAnimation.swift */,
-				28AEFE8721D4C11D0076CA7C /* com.cosmicmind.material.fonts.bundle */,
-				28AEFE8321D4C0850076CA7C /* com.cosmicmind.material.icons.bundle */,
+				28AEFE9021D4C2950076CA7C /* Assets.xcassets */,
+				28AEFE8921D4C28A0076CA7C /* Font */,
 				28AEFD7E21D4BC8B0076CA7C /* Animator */,
 				28AEFD8421D4BC8B0076CA7C /* MotionCoordinateSpace.swift */,
 				28AEFD8521D4BC8B0076CA7C /* MotionModifier.swift */,
@@ -554,6 +556,26 @@
 				28AEFDEB21D4BC8B0076CA7C /* MotionAnimationFillMode.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		28AEFE8921D4C28A0076CA7C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				28AEFE8A21D4C28A0076CA7C /* Roboto */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		28AEFE8A21D4C28A0076CA7C /* Roboto */ = {
+			isa = PBXGroup;
+			children = (
+				28AEFE8B21D4C28A0076CA7C /* Roboto-Medium.ttf */,
+				28AEFE8C21D4C28A0076CA7C /* Roboto-Light.ttf */,
+				28AEFE8D21D4C28A0076CA7C /* Roboto-Regular.ttf */,
+				28AEFE8E21D4C28A0076CA7C /* Roboto-Bold.ttf */,
+				28AEFE8F21D4C28A0076CA7C /* Roboto-Thin.ttf */,
+			);
+			path = Roboto;
 			sourceTree = "<group>";
 		};
 		33E19E007241CC49ECB4D215696A0D03 /* Development Pods */ = {
@@ -812,8 +834,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28AEFE8421D4C0850076CA7C /* com.cosmicmind.material.icons.bundle in Resources */,
-				28AEFE8821D4C11D0076CA7C /* com.cosmicmind.material.fonts.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
